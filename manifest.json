@@ -1,0 +1,41 @@
+{
+  "name": "VeriBs — Verificador de Billetes",
+  "short_name": "VeriBs",
+  "description": "Verificador de billetes bolivianos según datos oficiales del Banco Central de Bolivia",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0a1628",
+  "theme_color": "#0a1628",
+  "orientation": "portrait",
+  "lang": "es",
+  "categories": ["finance", "utilities"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Verificar Bs10",
+      "short_name": "Bs10",
+      "description": "Verificar billete de 10 bolivianos",
+      "url": "./index.html?denom=10"
+    },
+    {
+      "name": "Verificar Bs50",
+      "short_name": "Bs50",
+      "description": "Verificar billete de 50 bolivianos",
+      "url": "./index.html?denom=50"
+    }
+  ]
+}
