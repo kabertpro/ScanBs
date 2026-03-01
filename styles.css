@@ -573,6 +573,59 @@ body {
 }
 .site-footer strong { color: var(--accent); font-weight: 600; }
 
+.footer-divider {
+  width: 40px;
+  height: 1px;
+  background: var(--border);
+  margin: 12px auto;
+}
+.footer-creator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.footer-creator-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: var(--text-muted);
+  font-family: var(--mono);
+}
+.footer-creator-name {
+  font-family: var(--serif);
+  font-size: 15px;
+  color: var(--text);
+  font-weight: normal;
+}
+.footer-wa {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #4ade80;
+  font-family: var(--mono);
+  font-size: 12px;
+  text-decoration: none;
+  padding: 4px 10px;
+  border: 1px solid rgba(74,222,128,0.25);
+  border-radius: 20px;
+  transition: all var(--transition);
+  margin-top: 2px;
+}
+.footer-wa:hover {
+  background: rgba(74,222,128,0.08);
+  border-color: rgba(74,222,128,0.5);
+}
+.footer-studio {
+  font-family: var(--mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--text-muted);
+  margin-top: 2px;
+  opacity: 0.6;
+}
+
 /* ── Shake animation ── */
 @keyframes shake {
   0%, 100% { transform: translateX(0); }
